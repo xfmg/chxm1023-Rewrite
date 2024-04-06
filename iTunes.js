@@ -26,11 +26,15 @@ const ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
 const bundle_id = chxm1023.receipt["bundle_id"] || chxm1023.receipt["Bundle_Id"];
 
 const list = {
+  'HRV': { cm: 'sjbla', hx: 'hxpdc', version: "1", id: "com.stress.test.record.yearly", latest: "chxm1023" },  //解压小橘子(需试用)
+  'com.lm.rolls.ios': { cm: 'sjbla', hx: 'hxpda', id: "com.lm.rolls.ios.pro.year", latest: "chxm1023" },  //胶卷相机(未完成)
   'Planist': { cm: 'sjbld', hx: 'hxpda', id: "org.zrey.planist.main", ids: "org.zrey.planist.lifetime", latest: "chxm1023" },  //Planist
   'com.uzstudio.avenuecast.ios': { cm: 'sjblb', hx: 'hxpda', id: "1001", latest: "chxm1023" },  //凡视知音
   'CongZhenBaZi': { cm: 'sjblb', hx: 'hxpda', id: "vip_forever_78", latest: "chxm1023" },  //八字排盘-从真版
   'CongZhenQiMen': { cm: 'sjbla', hx: 'hxpda', id: "cn.congzhen.CongZhenQiMen.yearlyplan", latest: "chxm1023" },  //奇门遁甲
   'ProFit': { cm: 'sjbla', hx: 'hxpda', id: "com.maxty.gofitness.yearlyplan", latest: "chxm1023" },  //ProFit锻炼计划
+  'FitnessBodybuildingVGFIT': { cm: 'sjbla', hx: 'hxpda', id: "com.vgfit.fitnessvip.yearly", latest: "chxm1023" },  //fitnessvip
+  'Water%20Reminder': { cm: 'sjbla', hx: 'hxpda', id: "com.vgfit.premiumtracker.year", latest: "chxm1023" },  //WaterReminder水提醒
   '%E7%91%9C%E4%BC%BD': { cm: 'sjbla', hx: 'hxpda', id: "com.vgfit.yoga.yearly", latest: "chxm1023" },  //瑜伽
   'GPSMaker': { cm: 'sjbla', hx: 'hxpda', id: "theodolite_vip_year", latest: "chxm1023" },  //指南针定位
   'wrongbook': { cm: 'sjbla', hx: 'hxpda', id: "com.palmmob.wrongbookios.yearly", latest: "chxm1023" },  //错题宝
@@ -48,6 +52,13 @@ const list = {
   'Guitar%20Notation': { cm: 'sjbla', hx: 'hxpda', id: "gn_access_weekly", latest: "chxm1023" },  //Guitar Notation
   'Piano%20Fantasy': { cm: 'sjbla', hx: 'hxpda', id: "com.lotuz.PianoFantasy.weekwithtrail", latest: "chxm1023" },  //钢琴幻想
   'Piano%20Rush': { cm: 'sjbla', hx: 'hxpda', id: "com.lotuz.PianoPro.weekwithtrail", latest: "chxm1023" },  //钢琴大师
+  'com.richads.saucyart': { cm: 'sjbla', hx: 'hxpda', id: "com.richads.saucyart.sub.quarterly_29.99", latest: "chxm1023" },  //Perky
+  'SurveyorPro': { cm: 'sjbla', hx: 'hxpda', id: "com.celiangyuan.SurveyorPro.OneYear", latest: "chxm1023" },  //测量员Pro
+  'com.ydatong.dingdone': { cm: 'sjblb', hx: 'hxpda', id: "com.ydatong.dingdone.vip.forever", latest: "chxm1023" },  //叮当代办
+  'Dial': { cm: 'sjbla', hx: 'hxpda', version: "233", id: "2104", latest: "chxm1023" },  //T9拨号
+  'qxwp%20copy': { cm: 'sjbla', hx: 'hxpda', id: "com.chowjoe.wp2free.year.pro", latest: "chxm1023" },  //壁纸
+  'LingLongShouZ': { cm: 'sjbla', hx: 'hxpda', id: "zhenwushouzhangQuarterlyPlus", latest: "chxm1023" },  //Cute手帐软件
+  'MediaEditor': { cm: 'sjbla', hx: 'hxpda', id: "yearautorenew", latest: "chxm1023" },  //剪影(需试用)
   'UniversTranslate': { cm: 'sjbla', hx: 'hxpda', id: "com.univers.translator.tool.year", latest: "chxm1023" },  //翻译官(需试用)
   'com.gostraight.smallAccountBook': { cm: 'sjblb', hx: 'hxpda', id: "ForeverVIPPayment", latest: "chxm1023" },  //iCost记账(需要购买)
   'ZJTBiaoGe': { cm: 'sjbla', hx: 'hxpda', id: "zhangjt.biaoge.monthvip", latest: "chxm1023" },  //表格手机版
@@ -154,7 +165,6 @@ const list = {
   'com.leapfitness.fasting': { cm: 'sjbla', hx: 'hxpda', version: "164", id: "com.leapfitness.fasting.oneyear1", latest: "chxm1023" },  //168轻断食
   'WidgetBox': { cm: 'sjblb', hx: 'hxpda', version: "27", id: "widgetlab001", latest: "chxm1023" },  //小组件盒子
   'LifeTracker': { cm: 'sjbla', hx: 'hxpda', version: "202208011119", id: "com.dk.lifetracker.yearplan", latest: "chxm1023" },  //Becord生活记录
-  'Water%20Reminder': { cm: 'sjbla', hx: 'hxpda', version: "1.9.19", id: "com.vgfit.premiumtracker.month", latest: "chxm1023" },  //WaterReminder喝水APP
   'imgplay': { cm: 'sjbla', hx: 'hxpda', version: "482", id: "me.imgbase.imgplay.subscriptionYearly", latest: "chxm1023" },  //imgPlay
   'WaterMinder': { cm: 'sjbla', hx: 'hxpda', version: "842", id: "waterminder.premiumYearly", latest: "chxm1023" },  //WaterMinder喝水APP
   'HashPhotos': { cm: 'sjblb', hx: 'hxpda', version: "23177", id: "com.kobaltlab.HashPhotos.iap.allinone.free", latest: "chxm1023" },  //HashPhotos
@@ -162,7 +172,6 @@ const list = {
   'SilProject': { cm: 'sjbla', hx: 'hxpda', version: "84", id: "com.sm.Alina.Pro", latest: "chxm1023" },  //Alina米克锁屏—
   'com.chenxi.shanniankapian': { cm: 'sjbla', hx: 'hxpda', version: "6", id: "com.chenxi.shannian.superNian", latest: "chxm1023" },  //闪念
   'com.risingcabbage.pro.camera': { cm: 'sjbla', hx: 'hxpda', version: "98", id: "com.risingcabbage.pro.camera.yearlysubscription", latest: "chxm1023" },  //ReLens相机
-  'com.vitalii.water': { cm: 'sjblb', hx: 'hxpda', version: "683", id: "com.vitalii.water.sub.premium8", latest: "chxm1023" },  //喝水羊驼
   'co.bazaart.patternator': { cm: 'sjbla', hx: 'hxpda', version: "65", id: "Patternator_Lock_Screen_Monthly", latest: "chxm1023" },  //拍特内头
   '%E5%BD%95%E9%9F%B3%E4%B8%93%E4%B8%9A%E7%89%88': { cm: 'sjbla', hx: 'hxpda', version: "11800", id: "com.winat.recording.pro.yearly", latest: "chxm1023" },  //录音专业版
   'cn.linfei.SimpleRecorder': { cm: 'sjbla', hx: 'hxpda', version: "5241", id: "cn.linfei.SimpleRecorder.Plus", latest: "chxm1023" },  //录音机
@@ -276,9 +285,11 @@ for (const i in list) {
   if (list[i].hx.indexOf('hxpda') != -1) {  chxm1023["receipt"]["in_app"] = (sjbl); chxm1023["latest_receipt_info"] = (sjbl); chxm1023["pending_renewal_info"] = [{  "product_id" : (list[i].id), "original_transaction_id" : "490001314520000", "auto_renew_product_id" : (list[i].id), "auto_renew_status" : "1"  }]; chxm1023["latest_receipt"] = (list[i].latest);  }
   //永久数据核心(无到期时间)
   if (list[i].hx.indexOf('hxpdb') != -1) {  chxm1023["receipt"]["in_app"] = (sjbl);  }
+  //新核心-类似解压小橙子
+  if (list[i].hx.indexOf('hxpdc') != -1) {  chxm1023["receipt"]["in_app"] = (sjbl);  }
   //通用数据(可有可无)
   var commondata = {  "request_date": "2023-09-09 16:06:27 Etc/GMT", "request_date_pst": "2023-09-09 06:06:27 America/Los_Angeles", "request_date_ms": "1694273635000", "original_purchase_date": "2023-09-09 16:00:00 Etc/GMT", "original_purchase_date_pst": "2023-09-09 06:00:00 America/Los_Angeles", "original_purchase_date_ms": "1694273430000", "receipt_creation_date": "2023-09-09 16:06:26 Etc/GMT", "receipt_creation_date_pst": "2023-09-09 06:06:26 America/Los_Angeles", "receipt_creation_date_ms": "1694273634000", "original_application_version": list[i].version}; chxm1023["receipt"] = Object.assign({}, chxm1023["receipt"], commondata );
-//判断是否需要加入版本号(可有可无)
+  //判断是否需要加入版本号(可有可无)
   if(list[i] && list[i].version && list[i].version.trim() !== '') {  chxm1023["receipt"]["original_application_version"] = list[i].version;  }
   chxm1023["Telegram"] = "https://t.me/chxm1023";
   chxm1023["warning"] = "仅供学习，禁止转载或售卖";
