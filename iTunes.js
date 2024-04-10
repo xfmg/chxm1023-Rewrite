@@ -1,7 +1,7 @@
 /*************************************
 
 项目名称：iTunes-系列解锁合集
-更新日期：2024-04-05
+更新日期：2024-04-10
 脚本作者：chxm1023
 电报频道：https://t.me/chxm1023
 使用声明：⚠️仅供参考，🈲转载与售卖！
@@ -26,8 +26,7 @@ const ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
 const bundle_id = chxm1023.receipt["bundle_id"] || chxm1023.receipt["Bundle_Id"];
 
 const list = {
-  'HRV': { cm: 'sjbla', hx: 'hxpdc', version: "1", id: "com.stress.test.record.yearly", latest: "chxm1023" },  //解压小橘子(需试用)
-  'com.lm.rolls.ios': { cm: 'sjbla', hx: 'hxpda', id: "com.lm.rolls.ios.pro.year", latest: "chxm1023" },  //胶卷相机(未完成)
+  'stretchworkout': { cm: 'sjbla', hx: 'hxpda', id: "com.abishkking.premiumYearStretch", latest: "chxm1023" },  //拉伸运动
   'Planist': { cm: 'sjbld', hx: 'hxpda', id: "org.zrey.planist.main", ids: "org.zrey.planist.lifetime", latest: "chxm1023" },  //Planist
   'com.uzstudio.avenuecast.ios': { cm: 'sjblb', hx: 'hxpda', id: "1001", latest: "chxm1023" },  //凡视知音
   'CongZhenBaZi': { cm: 'sjblb', hx: 'hxpda', id: "vip_forever_78", latest: "chxm1023" },  //八字排盘-从真版
