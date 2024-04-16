@@ -252,7 +252,7 @@ try {
  if (typeof $response == "undefined") {
   delete headers["x-revenuecat-etag"];
   delete headers["X-RevenueCat-ETag"];
-   chxm1024.headers = headers;
+  chxm1024.headers = headers;
  } else if (chxm1023 && chxm1023.subscriber) {
    chxm1023.subscriber.subscriptions = chxm1023.subscriber.subscriptions || {};
    chxm1023.subscriber.entitlements = chxm1023.subscriber.entitlements || {};
