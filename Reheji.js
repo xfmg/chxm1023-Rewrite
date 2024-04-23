@@ -2,7 +2,7 @@
 
 项目名称：Revenuecat 系列解锁合集
 下载地址：https://too.st/CollectionsAPP
-更新日期：2024-04-23
+更新日期：2024-04-24
 脚本作者：chxm1023
 电报频道：https://t.me/chxm1023
 使用声明：⚠️仅供参考，🈲转载与售卖！
@@ -43,6 +43,7 @@ const bundle = {
 
 //识别UA
 const list = {
+  'Airmail': { name: 'Airmail Premium', id: 'Airmail_iOS_Yearly_P', cm: 'sja' },  //Airmail
   'ScreenRecordCase': { name: 'Premium', id: 'me.fandong.ScreenRecordCase.Ultra', cm: 'sjb' },  //屏幕套壳
   'opusvpn': { name: 'pro', id: 'yearly_discount', cm: 'sja' },  //Opus-VPN
   'ip_tv_react_native': { name: 'Single', id: 'opus.lifetime', cm: 'sjb' },  //Opus-IPTV
