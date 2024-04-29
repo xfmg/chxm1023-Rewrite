@@ -23,7 +23,7 @@ var chxm1023 = JSON.parse($response.body);
 chxm1023 = {
   "message" : "查询成功",
   "data" : {
-    "endTime" : 4092599349
+    "endTime" : 4092599349000
   },
   "code" : 0
 };
