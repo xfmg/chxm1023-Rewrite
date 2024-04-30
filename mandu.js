@@ -20,6 +20,6 @@ hostname = pro.particlethink.com
 
 var chxm1023 = JSON.parse($response.body);
 
-chxm1023。data = true;
+chxm1023.data = true;
 
 $done({body : JSON.stringify(chxm1023)});
