@@ -200,7 +200,7 @@ const list = {
   'com.readdle.ReaddleDocsIPad': { cm: 'sjbla', hx: 'hxpda', version: "8.3.1.902", id: "com.readdle.ReaddleDocsIPad.subscription.month10_allusers", latest: "chxm1023" },  //Documents
   'com.1ps.lovetalk': { cm: 'sjbla', hx: 'hxpda', version: "1", id: "com.1ps.lovetalk.normal.weekly", latest: "chxm1023" },  //高级恋爱话术
   'tech.miidii.MDClock': { cm: 'sjblb', hx: 'hxpda', version: "359", id: "tech.miidii.MDClock.pro", latest: "chxm1023" },  //谜底时钟
-  'com.floatcamellia.prettyup': { cm: 'sjbla', hx: 'hxpda', version: "5.7.5", id: "com.floatcamellia.prettyup.freetrialyearlysubscription", latest: "chxm1023" },  //PrettyUp视频P图
+  'com.floatcamellia.prettyup': { cm: 'sjblb', hx: 'hxpda', id: "com.floatcamellia.prettyup.onetimepurchase", latest: "chxm1023" },  //PrettyUp视频P图
   'com.zijayrate.analogcam': { cm: 'sjbla', hx: 'hxpda', version: "68", id: "com.zijayrate.analogcam.vipforever10", latest: "chxm1023" },  //oldroll复古相机
   'WeeklyNote': { cm: 'sjbla', hx: 'hxpda', version: "1", id: "org.zrey.weeklynote.yearly", latest: "chxm1023" },  //WeeklyNote(周周记)
   'DoMemo': { cm: 'sjbla', hx: 'hxpda', version: "1", id: "org.zrey.fastnote.yearly", latest: "chxm1023" },  //DoMemo
