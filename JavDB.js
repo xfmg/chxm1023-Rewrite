@@ -34,9 +34,7 @@ if (typeof $response == "undefined") {
   if(user.test($request.url)){
     chxm1023.data.user = Object.assign({}, chxm1023.data.user, {
       "promotion_days" : 9999,
-      "promotion_code" : "bkdhng",
       "vip_expired_at" : "2099-09-09T09:09:09.000+09:00",
-      "share_url" : "https://jav524.app/?source=bkdhng",
       "is_vip" : true
     });
     chxm1023.banner_type = "payment";
