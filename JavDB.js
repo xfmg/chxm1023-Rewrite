@@ -25,7 +25,7 @@ const chxm1023 = JSON.parse(typeof $response != "undefined" && $response.body ||
 
 if (typeof $response == "undefined") {
   const headers = $request.headers;
-  headers["authorization"] = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MzU4NDg3NywidXNlcm5hbWUiOiJjaHhtMTAyNCJ9.pteL57gAbpyCzpSYAZzIs2gap84UMATksmiJBY_swjE";
+  headers["authorization"] = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MzU4NDg3NywidXNlcm5hbWUiOiJjaHhtMTAyNCJ9.pQib789RWlw2N2hrFLVXF-mj125tpw1HXd_t0HbugZc";
   chxm1024.headers = headers;
 } else {
   const user = /users/;
