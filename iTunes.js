@@ -26,7 +26,7 @@ const ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
 const bundle_id = chxm1023.receipt["bundle_id"] || chxm1023.receipt["Bundle_Id"];
 
 const list = {
-  'Photo%20Cutout': { cm: 'sjbla', hx: 'hxpda', id: "com.icepine.all", latest: "chxm1023" },  //轻松扣图
+  'Photo%20Cutout': { cm: 'sjbla', hx: 'hxpda', id: "com.icepine.allyear", latest: "chxm1023" },  //轻松扣图
   'cleanPhone': { cm: 'sjbla', hx: 'hxpda', id: "com.clean.year", latest: "chxm1023" },  //爱机清理
   'ppt': { cm: 'sjbla', hx: 'hxpda', id: "com.palmmob.pptios.yearly", latest: "chxm1023" },  //手机PPT制作
   'WasteCat': { cm: 'sjblb', hx: 'hxpda', id: "dev.sanjin.WasteCat.PermanentVip", latest: "chxm1023" },  //垃圾贪吃猫
