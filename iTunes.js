@@ -26,6 +26,7 @@ const ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
 const bundle_id = chxm1023.receipt["bundle_id"] || chxm1023.receipt["Bundle_Id"];
 
 const list = {
+  'VideoHelper': { cm: 'sjblb', hx: 'hxpda', id: "vip_service", latest: "chxm1023" }, //媒关系
   'SuperPointer': { cm: 'sjblb', hx: 'hxpda', id: "com.SuperPointer.Location.Forever", latest: "chxm1023" }, //海拔指南针
   'SnakeReader': { cm: 'sjblb', hx: 'hxpda', id: "com.lyran.snakescanner.premium18", latest: "chxm1023" }, //开卷阅读
   'FourthPPT': { cm: 'sjblb', hx: 'hxpda', id: "com.FourthPPT.Mobile.Forever", latest: "chxm1023" }, //PPT制作软件
