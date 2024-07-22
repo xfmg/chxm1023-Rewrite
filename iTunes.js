@@ -351,7 +351,7 @@ for (const i in list) {
   }
 }
 
-// 如果没有匹配的 UA 或 bundle_id
+// 如果没有匹配到 UA 或 bundle_id 使用备用方案
 if (!anchor) {
   data = [ Object.assign({}, receipt, expirestime)];
   chxm1023["receipt"]["in_app"] = data;
