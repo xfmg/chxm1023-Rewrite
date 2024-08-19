@@ -37,7 +37,6 @@ for (const key in list) {
       "store_id": store_id,
       "duration": 99999
     };
-    if (!chxm1023.data.hasOwnProperty("products")) {  chxm1023.data["products"] = [];}
     chxm1023.data["products"].push(data);
     chxm1023.data["user_products"] = [data];
     chxm1023.data["permissions"] = [
