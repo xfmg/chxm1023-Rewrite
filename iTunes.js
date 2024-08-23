@@ -67,7 +67,6 @@ const list = {
   'OneExtractor': { cm: 'timeb', hx: 'hxpda', id: "com.OneExtractor.Video.Forever", latest: "chxm1023" }, //视频提取器
   'com.Colin.Colors': { cm: 'timea', hx: 'hxpda', id: "com.colin.colors.annualVIP", latest: "chxm1023" }, //搜图
   'PhotosSorter': { cm: 'timeb', hx: 'hxpda', id: "sorter.pro.ipa", latest: "chxm1023" }, //Sorter-相册整理
-  'VDIT': { cm: 'timea', hx: 'hxpda', id: "me.imgbase.videoday.yearly", latest: "chxm1023" }, //VDIT(未完成)
   'intolive': { cm: 'timea', hx: 'hxpda', id: "me.imgbase.intolive.proSubYearly", latest: "chxm1023" }, //intolive-实况壁纸制作器
   'MyAlbum': { cm: 'timeb', hx: 'hxpda', id: "com.colin.myalbum.isUpgradeVip", latest: "chxm1023" }, //Cleaner-照片管理
   'VideoEditor': { cm: 'timeb', hx: 'hxpda', id: "com.god.videohand.alwaysowner", latest: "chxm1023" }, //VideoShot
