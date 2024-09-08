@@ -335,7 +335,7 @@ for (const i in list) {
         break;
       case 'timed':
         data = [
-          Object.assign({}, receiptdata, { "product_id": ids }),
+          Object.assign({}, receiptdata, expirestime, { "product_id": ids }),
           Object.assign({}, receiptdata, expirestime, { "product_id": id })
         ];
         break;
