@@ -12,7 +12,7 @@
 
 [rewrite_local]
 
-^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9}) url script-response-body 
+^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9}) url script-response-body https://raw.githubusercontent.com/xfmg/chxm1023Rewrite/Loon/flightradar24.js
 
 [mitm] 
 
